@@ -1,0 +1,39 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tisaf: <http://vsrstud01.informatik.tu-chemnitz.de/tisaf/> .
+tisaf:tisaf a skos:ConceptScheme;
+   dc:title "Project specific vocabulary for realization of the terminology service TISAF (master thesis)"@en;
+   dc:title "Projekt-spezifisches Vokabular zur Realisierung des Terminologie-Services TISAF (Masterarbeit)"@de;
+   skos:prefLabel "Project specific vocabulary for realization of the terminology service TISAF (master thesis)"@en;
+   skos:prefLabel "Projekt-spezifisches Vokabular zur Realisierung des Terminologie-Services TISAF (Masterarbeit)"@de;
+   dc:creator "Matthias Tietz";
+   dct:rightsHolder "Matthias Tietz";
+   skos:hasTopConcept tisaf:creationDate;
+   skos:hasTopConcept tisaf:importDate;
+   skos:hasTopConcept tisaf:researchDomain;
+   .
+tisaf:creationDate a skos:Concept;
+   skos:prefLabel "Creation Date"@en;
+   skos:prefLabel "Erstelldatum"@de;
+   skos:note "Date indicating when a new resource was created via the TISAF solution.";
+   skos:inScheme tisaf:tisaf;
+   skos:topConceptOf tisaf:tisaf;
+   .
+tisaf:importDate a skos:Concept;
+   skos:prefLabel "Import Date"@en;
+   skos:prefLabel "Importdatum"@de;
+   skos:note "Date indicating when a existing, external resource was imported into the TISAF solution.";
+   skos:inScheme tisaf:tisaf;
+   skos:topConceptOf tisaf:tisaf;
+   .
+tisaf:researchDomain a skos:Concept;
+   skos:prefLabel "Research Domain"@en;
+   skos:prefLabel "Wissensdisziplin"@de;
+   skos:note "Research domain like Biochemistry, Molecular Physics or Computer Science.";
+   skos:example "Biochemistry";
+   dct:references <https://w3id.org/skgo/modsci#>;
+   dct:references <https://skos.um.es/unesco6/>;
+   skos:inScheme tisaf:tisaf;
+   skos:topConceptOf tisaf:tisaf;
+   .
