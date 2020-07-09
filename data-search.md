@@ -1,4 +1,4 @@
-| search term                      | Source                                                       | Notes                                                        | OWL/RDFS/SKOS?                         |
+| search term                      | Source                                                       | Notes                                                        | data model                             |
 | -------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------------- |
 | google skos ontology download    | https://www.w3.org/2001/sw/wiki/SKOS/Datasets                | looking for scientific / research related data, e.g. 1.37 Proposed international standard nomenclature for fields of science and technology | SKOS                                   |
 | -                                | http://id.loc.gov/                                           | found by sota analysis                                       | MADS (owl), SKOS                       |
@@ -14,4 +14,6 @@
 | -                                | https://www.w3.org/TR/mediaont-10/#ont-ttl                   | Ontology for Media Resources 1.0, found via via https://www.w3.org/2005/Incubator/lld/XGR-lld-vocabdataset-20111025/ | RDFS, OWL                              |
 | -                                | https://creativecommons.org/ns                               | Describing Copyright in RDF                                  | RDFS, OWL                              |
 | -                                | http://rdflicense.appspot.com/                               | RDFLicense dataset                                           | RDFS                                   |
+|                                  | https://bioportal.bioontology.org/ontologies/OBI             |                                                              | OWL                                    |
+|                                  | https://bioportal.bioontology.org/ontologies/ERO             |                                                              | OWL                                    |
 
