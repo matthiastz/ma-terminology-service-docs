@@ -16,4 +16,8 @@
 | -                                | http://rdflicense.appspot.com/                               | RDFLicense dataset                                           | RDFS                                   |
 |                                  | https://bioportal.bioontology.org/ontologies/OBI             |                                                              | OWL                                    |
 |                                  | https://bioportal.bioontology.org/ontologies/ERO             |                                                              | OWL                                    |
+|                                  | https://www.coar-repositories.org/news-updates/what-we-do/controlled-vocabularies/ (e.g. Resource Types) | COAR Vocabularies, found via https://services.phaidra.univie.ac.at/api/object/o:441217/diss/Content/get, https://coar-repositories.github.io/vocabularies-implementation-guide/ | SKOS-XL                                |
+| -                                | https://bartoc.org                                           | Terminologies-Register (overview)                            | -                                      |
+|                                  | https://schema.datacite.org/meta/kernel-4.3/metadata.xsd     | general, authors, licenses, funding                          | **non RDF (XSD)**                      |
+|                                  | http://schema.re3data.org/3-0/re3dataV3-0.xsd , https://www.re3data.org/schema | subject names, content type, languages, countries, policies, re3data specific attributes... | **non RDF (XSD)**                      |
 
