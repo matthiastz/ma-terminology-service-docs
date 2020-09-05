@@ -1,0 +1,524 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tisaf: <http://www.tisaf.de/> .
+@prefix tt: <http://www.tisaf.de/tags/> .
+
+tt:Agriculture a skos:Concept ;
+    skos:broader tt:Life_Sciences ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Agriculture, Forestry, Horticulture and Veterinary Medicine"@en .
+
+tt:Analytical_Chemistry_Method_Development a skos:Concept ;
+    skos:broader tt:Chemistry ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Analytical Chemistry, Method Development"@en .
+
+tt:Ancient_Cultures a skos:Concept ;
+    skos:broader tt:Humanities ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Ancient Cultures"@en .
+
+tt:Arts a skos:Concept ;
+    skos:broader tt:Humanities ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Fine Arts, Music, Theatre and Media Studies"@en .
+
+tt:Astrophysics_Astronomy a skos:Concept ;
+    skos:broader tt:Physics ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Astrophysics and Astronomy"@en .
+
+tt:Atmospheric_Science_Oceanography a skos:Concept ;
+    skos:broader tt:Geosciences_Geography ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Atmospheric Science and Oceanography"@en .
+
+tt:Basic_Bio_Medical a skos:Concept ;
+    skos:broader tt:Biology ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Basic Biological and Medical Research"@en .
+
+tt:Biological_Chemistry_Food_Chemistry a skos:Concept ;
+    skos:broader tt:Chemistry ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Biological Chemistry and Food Chemistry"@en .
+
+tt:Chemical_Solid_State_Surface_Research a skos:Concept ;
+    skos:broader tt:Chemistry ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Chemical Solid State and Surface Research"@en .
+
+tt:Computer_Science a skos:Concept ;
+    skos:broader tt:Computer_Science_Electrical_System_Engineering ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Computer Science"@en .
+
+tt:Condensed_Matter_Physics a skos:Concept ;
+    skos:broader tt:Physics ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Condensed Matter Physics"@en .
+
+tt:Construction_Engineering_Architecture a skos:Concept ;
+    skos:broader tt:Engineering_Sciences ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Construction Engineering and Architecture"@en .
+
+tt:Culture_Social_Religion a skos:Concept ;
+    skos:broader tt:Humanities ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies"@en .
+
+tt:Economics a skos:Concept ;
+    skos:broader tt:Social_Behavioural_Sciences ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Economics"@en .
+
+tt:Education_Sciences a skos:Concept ;
+    skos:broader tt:Social_Behavioural_Sciences ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Education Sciences"@en .
+
+tt:Electrical_Engineering a skos:Concept ;
+    skos:broader tt:Computer_Science_Electrical_System_Engineering ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Electrical Engineering"@en .
+
+tt:Geochemistry_Mineralogy_Crystallography a skos:Concept ;
+    skos:broader tt:Geosciences_Geography ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Geochemistry, Mineralogy and Crystallography"@en .
+
+tt:Geography a skos:Concept ;
+    skos:broader tt:Geosciences_Geography ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Geography"@en .
+
+tt:Geology_Palaeontology a skos:Concept ;
+    skos:broader tt:Geosciences_Geography ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Geology and Palaeontology"@en .
+
+tt:Geophysics_Geodesy a skos:Concept ;
+    skos:broader tt:Geosciences_Geography ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Geophysics and Geodesy"@en .
+
+tt:Heat_Energy_Technology_Thermal_Machines_Fluid_Mechanics a skos:Concept ;
+    skos:broader tt:Thermal_Engineering_Process_Engineering ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Heat Energy Technology, Thermal Machines, Fluid Mechanics"@en .
+
+tt:History a skos:Concept ;
+    skos:broader tt:Humanities ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "History"@en .
+
+tt:Jurisprudence a skos:Concept ;
+    skos:broader tt:Social_Behavioural_Sciences ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Jurisprudence"@en .
+
+tt:Linguistics a skos:Concept ;
+    skos:broader tt:Humanities ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Linguistics"@en .
+
+tt:Literary_Studies a skos:Concept ;
+    skos:broader tt:Humanities ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Literary Studies"@en .
+
+tt:Materials_Engineering a skos:Concept ;
+    skos:broader tt:Materials_Science_Engineering ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Materials Engineering"@en .
+
+tt:Materials_Science a skos:Concept ;
+    skos:broader tt:Materials_Science_Engineering ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Materials Science"@en .
+
+tt:Mathematics a skos:Concept ;
+    skos:broader tt:Natural_Sciences ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Mathematics"@en .
+
+tt:Mechanics_Constructive_Mechanical_Engineering a skos:Concept ;
+    skos:broader tt:Mechanical_industrial_Engineering ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Mechanics and Constructive Mechanical Engineering"@en .
+
+tt:Medicine a skos:Concept ;
+    skos:broader tt:Medical_Sciences ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Medicine"@en .
+
+tt:Microbiology_Virology_Immunology a skos:Concept ;
+    skos:broader tt:Medical_Sciences ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Microbiology, Virology and Immunology"@en ;
+    skos:definition "Virology and Immunology develops vaccines and therapeutics against viral pathogens, and determines how viruses replicate and spread through basic and applied research."@en
+    .
+
+tt:Molecular_Chemistry a skos:Concept ;
+    skos:broader tt:Chemistry ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Molecular Chemistry"@en .
+
+tt:Neurosciences a skos:Concept ;
+    skos:broader tt:Medical_Sciences ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Neurosciences"@en .
+
+tt:Optics_Quantum_Optics_Physics_Atoms_Molecules_Plasmas a skos:Concept ;
+    skos:broader tt:Physics ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Optics, Quantum Optics and Physics of Atoms, Molecules and Plasmas"@en .
+
+tt:Particles_Nuclei_Fields a skos:Concept ;
+    skos:broader tt:Physics ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Particles, Nuclei and Fields"@en .
+
+tt:Philosophy a skos:Concept ;
+    skos:broader tt:Humanities ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Philosophy"@en .
+
+tt:Physical_Theoretical_Chemistry a skos:Concept ;
+    skos:broader tt:Chemistry ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Physical and Theoretical Chemistry"@en .
+
+tt:Plant_Sciences a skos:Concept ;
+    skos:broader tt:Biology ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Plant Sciences"@en .
+
+tt:Polymer_Research a skos:Concept ;
+    skos:broader tt:Chemistry ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Polymer Research"@en .
+
+tt:Process_Engineering_Technical_Chemistry a skos:Concept ;
+    skos:broader tt:Thermal_Engineering_Process_Engineering ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Process Engineering, Technical Chemistry"@en .
+
+tt:Production_Technology a skos:Concept ;
+    skos:broader tt:Mechanical_industrial_Engineering ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Production Technology"@en .
+
+tt:Psychology a skos:Concept ;
+    skos:broader tt:Social_Behavioural_Sciences ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Psychology"@en .
+
+tt:Social_Sciences a skos:Concept ;
+    skos:broader tt:Social_Behavioural_Sciences ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Social Sciences"@en .
+
+tt:Statistical_Physics_Soft_Matter_Biological_Physics_Nonlinear_Dynamics a skos:Concept ;
+    skos:broader tt:Physics ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Statistical Physics, Soft Matter, Biological Physics, Nonlinear Dynamics"@en .
+
+tt:Systems_Engineering a skos:Concept ;
+    skos:broader tt:Computer_Science_Electrical_System_Engineering ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Systems Engineering"@en .
+
+tt:Theology a skos:Concept ;
+    skos:broader tt:Humanities ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Theology"@en .
+
+tt:Water_Research a skos:Concept ;
+    skos:broader tt:Geosciences_Geography ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Water Research"@en .
+
+tt:Zoology a skos:Concept ;
+    skos:broader tt:Biology ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Zoology"@en .
+
+tt:dataAcquisition a skos:Concept ;
+    skos:broader tt:methodology ;
+    skos:example "Obeservation, study, interrogation, literature research, experiments."@en ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Datenerhebung"@de,
+        "Data Acquisition"@en .
+
+tt:device a skos:Concept ;
+    rdfs:seeAlso <https://bioportal.bioontology.org/ontologies/OBI/?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOBI_0000968> ;
+    skos:broader tt:methodology ;
+    skos:inScheme tt:tags ;
+    skos:note "Sometimes just called 'device' or 'instrument'"@en ;
+    skos:prefLabel "Forschungsgeräte"@de,
+        "Research Device"@en .
+
+tt:encoding a skos:Concept ;
+    dc:source <http://id.loc.gov/> ;
+    skos:broader tt:administration ;
+    skos:inScheme tt:tags ;
+    skos:note "See ID.LOC.GOV – Linked Data Service (Cataloging)"@en ;
+    skos:prefLabel "Encoding Format"@en .
+
+tt:eval a skos:Concept ;
+    skos:broader tt:methodology ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Evaluationsmethode"@de,
+        "Evaluation Method"@en .
+
+tt:fileType a skos:Concept ;
+    dc:source <http://id.loc.gov/> ;
+    skos:broader tt:administration ;
+    skos:inScheme tt:tags ;
+    skos:note "See ID.LOC.GOV – Linked Data Service (Cataloging)"@en ;
+    skos:prefLabel "File Type"@en .
+
+tt:general a skos:Concept ;
+    skos:broader tt:domains ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "General"@en .
+
+tt:license a skos:Concept ;
+    skos:broader tt:administration ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Lizenz"@de,
+        "License"@en .
+
+tt:measuring a skos:Concept ;
+    rdfs:seeAlso <http://purl.obolibrary.org/obo/OBI_0000832> ;
+    skos:broader tt:methodology ;
+    skos:inScheme tt:tags ;
+    skos:note "Sometimes just called 'measuring tool' or 'measurement device'"@en ;
+    skos:prefLabel "Messinstrument"@de,
+        "Measuring Instrument"@en .
+
+tt:mediaType a skos:Concept ;
+	dc:source <https://id.loc.gov/vocabulary/mencformat> ;
+	skos:broader tt:administration ;
+    skos:inScheme tt:tags ;
+    skos:note "See ID.LOC.GOV – Linked Data Service (Cataloging)"@en ;
+    skos:prefLabel "Media Type"@en .
+
+tt:metaTerminology a skos:Concept ;
+    skos:broader tt:meta ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Meta-Terminologie"@de,
+        "Meta terminology"@en .
+
+tt:resarchMethod a skos:Concept ;
+    skos:broader tt:methodology ;
+    skos:example "Quantitative or qualitative methods."@en ;
+    skos:inScheme tt:tags ;
+    skos:prefLabel "Forschungsmethode"@de,
+        "Research Method"@en .
+
+tt:software a skos:Concept ;
+    skos:broader tt:administration ;
+    skos:inScheme tt:tags ;
+    skos:note "Used software to create, process or analyse research data."@en ;
+    skos:prefLabel "Software"@de,
+        "Software"@en .
+
+tt:meta a skos:Concept ;
+    skos:inScheme tt:tags ;
+    skos:narrower tt:metaTerminology ;
+    skos:prefLabel "Meta"@de,
+        "Meta"@en ;
+    skos:scopeNote "These tags should be used to tag meta terminologies that are specifically created for the operation of the TISAF service."@en ;
+    skos:topConceptOf tt:tags .
+
+tt:Humanities_Social_Sciences a skos:Concept ;
+    skos:broader tt:domains ;
+    skos:inScheme tt:tags ;
+    skos:narrower tt:Humanities,
+        tt:Social_Behavioural_Sciences ;
+    skos:prefLabel "Humanities and Social Sciences"@en .
+
+tt:Materials_Science_Engineering a skos:Concept ;
+    skos:broader tt:Engineering_Sciences ;
+    skos:inScheme tt:tags ;
+    skos:narrower tt:Materials_Engineering,
+        tt:Materials_Science ;
+    skos:prefLabel "Materials Science and Engineering"@en .
+
+tt:Mechanical_industrial_Engineering a skos:Concept ;
+    skos:broader tt:Engineering_Sciences ;
+    skos:inScheme tt:tags ;
+    skos:narrower tt:Mechanics_Constructive_Mechanical_Engineering,
+        tt:Production_Technology ;
+    skos:prefLabel "Mechanical and industrial Engineering"@en .
+
+tt:Thermal_Engineering_Process_Engineering a skos:Concept ;
+    skos:broader tt:Engineering_Sciences ;
+    skos:inScheme tt:tags ;
+    skos:narrower tt:Heat_Energy_Technology_Thermal_Machines_Fluid_Mechanics,
+        tt:Process_Engineering_Technical_Chemistry ;
+    skos:prefLabel "Thermal Engineering/Process Engineering"@en .
+
+tt:Biology a skos:Concept ;
+    skos:broader tt:Life_Sciences ;
+    skos:inScheme tt:tags ;
+    skos:narrower tt:Basic_Bio_Medical,
+        tt:Plant_Sciences,
+        tt:Zoology ;
+    skos:prefLabel "Biology"@en;
+    skos:definition "The scientific study of living organisms."@en
+    .
+
+tt:Computer_Science_Electrical_System_Engineering a skos:Concept ;
+    skos:broader tt:Engineering_Sciences ;
+    skos:inScheme tt:tags ;
+    skos:narrower tt:Computer_Science,
+        tt:Electrical_Engineering,
+        tt:Systems_Engineering ;
+    skos:prefLabel "Computer Science, Electrical and System Engineering"@en .
+
+tt:Life_Sciences a skos:Concept ;
+    skos:broader tt:domains ;
+    skos:inScheme tt:tags ;
+    skos:narrower tt:Agriculture,
+        tt:Biology,
+        tt:Medical_Sciences ;
+    skos:prefLabel "Life Sciences"@en .
+
+tt:Medical_Sciences a skos:Concept ;
+    skos:altLabel "Medicine"@en ;
+    skos:broader tt:Life_Sciences ;
+    skos:inScheme tt:tags ;
+    skos:narrower tt:Medicine,
+        tt:Microbiology_Virology_Immunology,
+        tt:Neurosciences ;
+    skos:note "Label changed from Medicine to Medical Sciences to prevent duplicate identifiers/labels."@en ;
+    skos:prefLabel "Medical Sciences"@en .
+
+tt:Natural_Sciences a skos:Concept ;
+    skos:broader tt:domains ;
+    skos:inScheme tt:tags ;
+    skos:narrower tt:Chemistry,
+        tt:Geosciences_Geography,
+        tt:Mathematics,
+        tt:Physics ;
+    skos:prefLabel "Natural Sciences"@en .
+
+tt:Engineering_Sciences a skos:Concept ;
+    skos:broader tt:domains ;
+    skos:inScheme tt:tags ;
+    skos:narrower tt:Computer_Science_Electrical_System_Engineering,
+        tt:Construction_Engineering_Architecture,
+        tt:Materials_Science_Engineering,
+        tt:Mechanical_industrial_Engineering,
+        tt:Thermal_Engineering_Process_Engineering ;
+    skos:prefLabel "Engineering Sciences"@en .
+
+tt:Physics a skos:Concept ;
+    skos:broader tt:Natural_Sciences ;
+    skos:inScheme tt:tags ;
+    skos:narrower tt:Astrophysics_Astronomy,
+        tt:Condensed_Matter_Physics,
+        tt:Optics_Quantum_Optics_Physics_Atoms_Molecules_Plasmas,
+        tt:Particles_Nuclei_Fields,
+        tt:Statistical_Physics_Soft_Matter_Biological_Physics_Nonlinear_Dynamics ;
+    skos:prefLabel "Physics"@en .
+
+tt:Social_Behavioural_Sciences a skos:Concept ;
+    skos:broader tt:Humanities_Social_Sciences ;
+    skos:inScheme tt:tags ;
+    skos:narrower tt:Economics,
+        tt:Education_Sciences,
+        tt:Jurisprudence,
+        tt:Psychology,
+        tt:Social_Sciences ;
+    skos:prefLabel "Social and Behavioural Sciences"@en .
+
+tt:administration a skos:Concept ;
+    skos:definition "Administrative tags for the TISAF vocabularies."@en ;
+    skos:inScheme tt:tags ;
+    skos:narrower tt:encoding,
+        tt:fileType,
+        tt:license,
+        tt:mediaType,
+        tt:software ;
+    skos:prefLabel "Administration"@en ;
+    skos:scopeNote "These administrative attributes can be used to tag specific vocabularies, depending on their content or context, e.g. 'Media encoding formats', 'file types' etc."@en ;
+    skos:topConceptOf tt:tags .
+
+tt:domains a skos:Concept ;
+	dc:source <http://schema.re3data.org/3-0/re3dataV3-0.xsd> ;
+    dc:source <https://www.re3data.org/browse/by-subject/> ;
+    rdfs:seeAlso <https://skos.um.es/unesco6> ;
+    skos:definition "Abstract list of all relevant research domains for the TISAF service."@en ;
+    skos:inScheme tt:tags ;
+    skos:narrower tt:Engineering_Sciences,
+        tt:Humanities_Social_Sciences,
+        tt:Life_Sciences,
+        tt:Natural_Sciences,
+        tt:general ;
+    skos:prefLabel "Forschungsdomänen"@de,
+        "Research Domains"@en ;
+    skos:scopeNote "These domains can be used to tag specific vocabularies, depending on their content or context, e.g. 'History', 'Mathematics' or 'Life Sciences'."@en ;
+    skos:topConceptOf tt:tags .
+
+tt:methodology a skos:Concept ;
+    skos:definition "Methodologically tags for the TISAF vocabularies."@en ;
+    skos:inScheme tt:tags ;
+    skos:narrower tt:dataAcquisition,
+        tt:device,
+        tt:eval,
+        tt:measuring,
+        tt:resarchMethod ;
+    skos:prefLabel "Methodology"@en ;
+    skos:scopeNote "These methodologies can be used to tag specific vocabularies, depending on their content or context, e.g. 'data acquisition', 'research method' etc."@en ;
+    skos:topConceptOf tt:tags .
+
+tt:Chemistry a skos:Concept ;
+    skos:broader tt:Natural_Sciences ;
+    skos:inScheme tt:tags ;
+    skos:narrower tt:Analytical_Chemistry_Method_Development,
+        tt:Biological_Chemistry_Food_Chemistry,
+        tt:Chemical_Solid_State_Surface_Research,
+        tt:Molecular_Chemistry,
+        tt:Physical_Theoretical_Chemistry,
+        tt:Polymer_Research ;
+    skos:prefLabel "Chemistry"@en .
+
+tt:Geosciences_Geography a skos:Concept ;
+    skos:altLabel "Geosciences (including Geography)"@en ;
+    skos:broader tt:Natural_Sciences ;
+    skos:inScheme tt:tags ;
+    skos:narrower tt:Atmospheric_Science_Oceanography,
+        tt:Geochemistry_Mineralogy_Crystallography,
+        tt:Geography,
+        tt:Geology_Palaeontology,
+        tt:Geophysics_Geodesy,
+        tt:Water_Research ;
+    skos:prefLabel "Geosciences & Geography"@en .
+
+tt:Humanities a skos:Concept ;
+    skos:broader tt:Humanities_Social_Sciences ;
+    skos:inScheme tt:tags ;
+    skos:narrower tt:Ancient_Cultures,
+        tt:Arts,
+        tt:Culture_Social_Religion,
+        tt:History,
+        tt:Linguistics,
+        tt:Literary_Studies,
+        tt:Philosophy,
+        tt:Theology ;
+    skos:prefLabel "Humanities"@en .
+
+tt:tags a skos:ConceptScheme ;
+    skos:definition "Collection of grouped tags that can be used to mark terminologies by their content or context."@en ;
+    skos:hasTopConcept tt:administration,
+        tt:domains,
+        tt:meta,
+        tt:methodology ;
+    skos:prefLabel "TISAF tags schema"@en .
+

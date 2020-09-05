@@ -1,44 +1,70 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix tisaf: <http://vsrstud01.informatik.tu-chemnitz.de/tisaf/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tisaf: <http://www.tisaf.de/> .
+@prefix tt: <http://www.tisaf.de/tags/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 tisaf:tisaf a skos:ConceptScheme;
-   dc:title "Project specific vocabulary for realization of the terminology service TISAF (master thesis)"@en;
+   dc:title "Project specific vocabulary for the realization of the terminology service TISAF (master thesis)"@en;
    dc:title "Projekt-spezifisches Vokabular zur Realisierung des Terminologie-Services TISAF (Masterarbeit)"@de;
    skos:prefLabel "Project specific vocabulary for realization of the terminology service TISAF (master thesis)"@en;
    skos:prefLabel "Projekt-spezifisches Vokabular zur Realisierung des Terminologie-Services TISAF (Masterarbeit)"@de;
    dc:creator "Matthias Tietz";
    dct:rightsHolder "Matthias Tietz";
-   skos:hasTopConcept tisaf:creationDate;
-   skos:hasTopConcept tisaf:importDate;
-   skos:hasTopConcept tisaf:researchDomain;
    .
 tisaf:creationDate a skos:Concept;
    skos:prefLabel "Creation Date"@en;
    skos:prefLabel "Erstelldatum"@de;
-   skos:note "Date indicating when a new resource was created via the TISAF solution.";
+   skos:note "Date indicating when a new resource was created via the TISAF solution."@en;
    skos:inScheme tisaf:tisaf;
    skos:topConceptOf tisaf:tisaf;
-   rdfs:range xsd:date;
    .
 tisaf:importDate a skos:Concept;
    skos:prefLabel "Import Date"@en;
    skos:prefLabel "Importdatum"@de;
-   skos:note "Date indicating when a existing, external resource was imported into the TISAF solution.";
-   skos:inScheme tisaf:tisaf;
-   skos:topConceptOf tisaf:tisaf;
-   rdfs:range xsd:date;
-   .
-tisaf:researchDomain a skos:Concept;
-   skos:prefLabel "Research Domain"@en;
-   skos:prefLabel "Wissensdisziplin"@de;
-   skos:note "Research domain like Biochemistry, Molecular Physics or Computer Science.";
-   skos:example "Biochemistry";
-   dct:references <https://w3id.org/skgo/modsci#>;
-   dct:references <https://skos.um.es/unesco6/>;
+   skos:note "Date indicating when a existing, external resource was imported into the TISAF solution."@en;
    skos:inScheme tisaf:tisaf;
    skos:topConceptOf tisaf:tisaf;
    .
+tisaf:hasTags a skos:Concept;
+  skos:prefLabel "Tag"@en;
+  skos:prefLabel "Tag"@de;
+  skos:note "Attribute associated with an concrete TISAF terminology to mark and group terminologies."@en;
+  skos:example tt:Medical_Sciences;
+  skos:inScheme tisaf:tisaf;
+  skos:topConceptOf tisaf:tisaf;
+  .
+tisaf:terminologyTitle a skos:Concept;
+    skos:prefLabel "Terminology title"@en;
+    skos:inScheme tisaf:tisaf;
+    skos:topConceptOf tisaf:tisaf;
+    .
+tisaf:terminologyAuthors a skos:Concept;
+    skos:prefLabel "Terminology authors"@en;
+    skos:inScheme tisaf:tisaf;
+    skos:topConceptOf tisaf:tisaf;
+    .
+tisaf:source a skos:Concept;
+    skos:prefLabel "Source URI of the terminology"@en;
+    skos:inScheme tisaf:tisaf;
+    skos:topConceptOf tisaf:tisaf;
+    .
+# custom versionInfo property to not get in conflict with other skos/rdf/owl attributes
+tisaf:versionInfo a skos:Concept;
+  skos:prefLabel "Version info"@en;
+  skos:inScheme tisaf:tisaf;
+  skos:topConceptOf tisaf:tisaf;
+  rdfs:subPropertyOf owl:versionInfo
+  .
+# uri property for custom generated TISAF identifiers, based on skos:prefLabel of e.g. a Concept
+# this additional uri is needed to have an *internal* identifier in the TISAF application to ease the functionality of accessing, searching,
+# creating, updating or deleting resources etc.
+tisaf:uri a skos:Concept;
+  skos:prefLabel "TISAF URI"@en;
+  skos:inScheme tisaf:tisaf;
+  skos:topConceptOf tisaf:tisaf;
+  skos:note """uri property for the custom generated TISAF identifiers, which are based on skos:prefLabel of e.g. an skos:Concept.
+    This additional uri is needed to have an * internal * identifier in the TISAF application to ease the functionality of accessing, searching,
+    creating, updating or deleting resources etc."""@en;
+  .
