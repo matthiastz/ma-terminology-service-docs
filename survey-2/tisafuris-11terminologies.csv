@@ -1,0 +1,13 @@
+Terminologi;Concept Count;Error Rate: Tisafuri Creation - Resources Concept/-Scheme => a/b/c, a = resource with skos:prefLabel, b = tisaf:uri created, c = overall count for resource type;Duplicates (conceptId) -> uniquePerSubject/uniqueGlobal/urisOverall;Dissolvable tisaf:uri (+ url redirection no error) -> possible errors: status/no data. Implemented via curl php -iL … checked ONLY the UNIQUE urls;Terminology uri dissolvable?;
+Eagle-I Research Resource Ontology (ero4);4202;4041/4041/4202 — 0/0/1;4041/4037/4041;50:       http://www.tisaf.de/ERO/Actinobacteria_%3Cphylum%3E (http://www.tisaf.de/ERO/Actinobacteria_<phylum>) -> <, > chars;1;
+EBU SKOS Classification Scheme for File Format Type Codes (ebuff2);88;88/88/88 — 0/0/1;88/87/88;0 (before slash-bugfix: 5 errors -> 404);1;
+Juso Ontology (juso1);30;30/30/30 — 0/0/1;30/30/30;0 errors;1;
+Ontology for Biomedical Investigations (obi);5572;3563/3563/5572 — 0/0/1;3563/3563/3563;23 (/, <,>);1;
+RDFLicense dataset (plblrdf);182;182/182/182 — 1/1/1;182/182/182;0 errors;1;
+STW;7425;6275/6275/7425 — 1/1/1;6275/6275/6275;0 errors;1;
+Bibo (bibo2);109;70/70/109 — 0/0/1;70/70/70;0 errors;1;
+COVID (idocov193);751;485/485/751 — 0/0/1;485/485/485;0 errors;1;
+ESCO (esco1);43;32/32/43 — 0/0/1;32/32/32;0 errors (concept Skill long loading tho);1;
+UNESCO (unescothes);4408;4408/4408/4408 — 1/1/1;4408/4408/4408;29;1;
+TISAF TAGS (tisaftags6);79;79/79/79 — 1/1/1;79/79/79;0 errors (before slash-bugfix: 1 error -> 404);1;
+;22889;;;;;
